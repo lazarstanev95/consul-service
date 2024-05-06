@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+    consul-service:
+        image: consul-service
+        build:
+            context: .
+        ports:
+            - "8500:8500"  # Expose Consul UI port
+        #command: sh -c "sleep 20 && consul kv import @/consul/config/config.json && consul agent -server -ui -bind=127.0.0.1 --bootstrap-expect=1 -client=0.0.0.0 -data-dir /data > /consul/logs/log-stdout.log"
+        networks:
+            - consul-network
+        volumes:
+            - consul-data:/consul/data
+            #- ./:/consul/config/
+        restart: unless-stopped
+  
+networks:
+    consul-network:
+        driver: bridge
+
+volumes:
+    consul-data:

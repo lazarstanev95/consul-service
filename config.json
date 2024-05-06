@@ -1,0 +1,37 @@
+[
+	{
+		"key": "config/fed-port",
+		"flags": 0,
+		"value": "NDAwMA=="
+	},
+	{
+		"key": "config/scheduler-service/mongo-admin-password",
+		"flags": 0,
+		"value": "cGFzc3dvcmQxIQ=="
+	},
+	{
+		"key": "config/scheduler-service/mongo-admin-username",
+		"flags": 0,
+		"value": "YWRtaW4="
+	},
+	{
+		"key": "config/scheduler-service/mongo-app-password",
+		"flags": 0,
+		"value": "ZGJQYXNzd29yZDEh"
+	},
+	{
+		"key": "config/scheduler-service/mongo-app-username",
+		"flags": 0,
+		"value": "d2Jfb3duZXI="
+	},
+	{
+		"key": "config/scheduler-service/mongo-db-name",
+		"flags": 0,
+		"value": "ZWNvbW1lcmNl"
+	},
+	{
+		"key": "config/scheduler-service/mongo-ip",
+		"flags": 0,
+		"value": "MTcyLjI4LjI0MC4x"
+	}
+]
