@@ -32,6 +32,11 @@
 	{
 		"key": "config/scheduler-service/mongo-ip",
 		"flags": 0,
-		"value": "MTcyLjI4LjI0MC4x"
+		"value": "MTkyLjE2OC4xLjEy"
+	},
+	{
+		"key": "config/scheduler-service/mongo-port",
+		"flags": 0,
+		"value": "MjcwMTc="
 	}
 ]
