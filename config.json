@@ -5,6 +5,16 @@
 		"value": "NDAwMA=="
 	},
 	{
+		"key": "config/scheduler-service/dashboard-password",
+		"flags": 0,
+		"value": "YWRtaW4xIQ=="
+	},
+	{
+		"key": "config/scheduler-service/dashboard-username",
+		"flags": 0,
+		"value": "YWRtaW4="
+	},
+	{
 		"key": "config/scheduler-service/mongo-admin-password",
 		"flags": 0,
 		"value": "cGFzc3dvcmQxIQ=="
